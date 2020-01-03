@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.piano {
+  display: flex;
+}
+
+.key {
+}
+
+.white {
+  background-color: #fff;
+  border: 1px solid #151515;
+}
+
+.black {
+  background-color: black;
+}
