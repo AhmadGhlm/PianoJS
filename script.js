@@ -10,3 +10,13 @@ const blackKeys = document.querySelectorAll(".key.black");
 keys.forEach(key => {
   key.addEventListener("click", () => playNote(key));
 });
+
+document.addEventListener("keydown", e => {
+  if (e.repeat) return;
+  const key = e.key;
+  const whiteKeyIndex = white_keys.indexOf(key);
+  const blackKeyIndex = black_keys.indexOf(key);
+
+  if (whiteKeyIndex > -1) playNote(whiteKeys[whiteKeyIndex]);
+  if (blackKeyIndex > -1) playNote(blackKeys[blackKeyIndex]);
+});
