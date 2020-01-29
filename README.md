@@ -4,7 +4,7 @@ Make some music with your keyboard or clicks with your mice !
 
 
 
-* Init project with basics files (HTML, CSS and .JS)
+* Init project
 
 * Create elements in index.HTML
 
