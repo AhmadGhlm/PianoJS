@@ -1,6 +1,6 @@
-# JavaScript Piano - Test exercice
+# JavaScript Piano - Test
 
-Make some music with your keyboard or clicks with your mice !
+Play some music with your keyboard or clicks with your mice !
 
 
 
